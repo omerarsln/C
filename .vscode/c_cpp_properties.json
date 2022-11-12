@@ -4,8 +4,6 @@
             "name": "GCC",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Source/msys64/mingw64/include/c++/12.1.0",
-                "C:/Source/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32"
             ],
             "defines": [
                 "_DEBUG",

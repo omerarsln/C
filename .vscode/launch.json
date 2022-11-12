@@ -1,7 +1,7 @@
 {
   "configurations": [
     {
-      "name": "C/C++: g++.exe etkin dosyayı derle ve dosyada hata ayıkla",
+      "name": "cppdbg",
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}\\out\\${fileBasenameNoExtension}.exe",
@@ -24,7 +24,7 @@
           "ignoreFailures": true
         }
       ],
-      "preLaunchTask": "C/C++: g++.exe etkin dosyayı derle"
+      "preLaunchTask": "cppbuild"
     }
   ],
   "version": "2.0.0"
