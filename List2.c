@@ -40,7 +40,6 @@ int main()
 
 	while (iter->next != NULL)
 	{
-
 		i++;
 		printf("%d.eleman: %d\n", i, iter->x);
 		iter = iter->next;
@@ -54,9 +53,7 @@ int main()
 	}
 
 	bastir(ilk);
+	printf("\n\n%d\n", ilk->x);
 
-	printf("\n\n %d", ilk->x);
-
-	system("pause");
-	return 0;
+	getchar();
 }
